@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <meta charset = "UTF-8"/>
+        <title> Klariti Switch</title>
+
+
+    </head>
+
+    <!--Start of Body-->
+    <body>
+        <h1>Switch is off</h1>
+        <button onClick = "toggleSwitch()">Toggle</button>
+
+        <!--JS-->
+        <script> 
+
+        let isOn = false;
+
+        function toggleSwitch() {
+            isOn = !isOn;
+            document.querySelector("h1").textContent = "Switch is " + (isOn ? "on" : "off");
+        }
+
+        </script>
+    </body>
+
+
+
+
+
+</html>
