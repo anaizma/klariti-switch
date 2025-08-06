@@ -1,0 +1,35 @@
+/*Body Styling*/
+
+body {
+    font-family: 'JetBrains Mono' , monospace;
+    background-color: #0f172a;
+    color: #e0e7ff;
+    text-align: center;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;  /*rem is basically how much times the base size 1=16px*/
+    font-weight: 600;
+    margin-bottom: 30px;
+    transition: color 0.3s ease; /*Add a transisiton for the hover so it is smooth and cool looking*/
+}
+
+button {
+    padding: 14px 30px;
+    font-size: 1.2rem;
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 10px; /*rounds the corners*/
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /*to animate the bakground color and its scale smoothly*/
+    box-shadow: 0px 4px 15px rgba(124, 58, 237, 0.2); /*to give it more depth and shadow*/ 
+}
+
+button:hover {
+    background-color: #5b21b6;
+    transform: scale(1.1); /*so it can zoom into the button and look cooler*/
+}
