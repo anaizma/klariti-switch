@@ -30,7 +30,7 @@
 
         <!--Get messgaes from backend-->
         <script>
-            fetch("http://127.0.0.1:8000/") //so this is basically saying, go ask the fastAPI server
+            fetch("https://klariti-switch-production.up.railway.app/") //so this is basically saying, go ask the fastAPI server
                 .then(function(response) {
                     return response.json();
                 })  // So when the server responds, convert what it gives back into real javascript data, not just text
