@@ -17,3 +17,10 @@ app.add_middleware(
 def read_root(): #this is defining a function
     return {"message": "Hello from Klariti backend!"}  # this is what the server sends back to the browser
 #also its in a formart called JSON^^
+
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("klariti-backend.main:app", host="0.0.0.0", port=8080)
+
